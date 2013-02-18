@@ -42,7 +42,22 @@
 		4CEFBA1D16CDCB8E00AA060C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFBA1C16CDCB8E00AA060C /* Default-568h@2x.png */; };
 		4CEFBA2016CDCB8E00AA060C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFBA1E16CDCB8E00AA060C /* MainStoryboard.storyboard */; };
 		4CEFBA2E16CDCC6500AA060C /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFBA2D16CDCC6500AA060C /* InitViewController.m */; };
+		4FA5CD3316D1BAE300F168DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA5CD3216D1BAE300F168DC /* SenTestingKit.framework */; };
+		4FA5CD3416D1BAE300F168DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEFBA0616CDCB8E00AA060C /* UIKit.framework */; };
+		4FA5CD3516D1BAE300F168DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEFBA0816CDCB8E00AA060C /* Foundation.framework */; };
+		4FA5CD3B16D1BAE300F168DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FA5CD3916D1BAE300F168DC /* InfoPlist.strings */; };
+		4FA5CD3E16D1BAE300F168DC /* TictactoeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5CD3D16D1BAE300F168DC /* TictactoeTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FA5CD4316D1BC8500F168DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CEFB9FB16CDCB8E00AA060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEFBA0216CDCB8E00AA060C;
+			remoteInfo = TicTacToe;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4C11700B16D15FE600BFF167 /* MessageTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTypes.h; sourceTree = "<group>"; };
@@ -89,6 +104,13 @@
 		4CEFBA1F16CDCB8E00AA060C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4CEFBA2C16CDCC6500AA060C /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitViewController.h; sourceTree = "<group>"; };
 		4CEFBA2D16CDCC6500AA060C /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitViewController.m; sourceTree = "<group>"; };
+		4FA5CD3116D1BAE300F168DC /* TictactoeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TictactoeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA5CD3216D1BAE300F168DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4FA5CD3816D1BAE300F168DC /* TictactoeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TictactoeTests-Info.plist"; sourceTree = "<group>"; };
+		4FA5CD3A16D1BAE300F168DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FA5CD3C16D1BAE300F168DC /* TictactoeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TictactoeTests.h; sourceTree = "<group>"; };
+		4FA5CD3D16D1BAE300F168DC /* TictactoeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TictactoeTests.m; sourceTree = "<group>"; };
+		4FA5CD3F16D1BAE300F168DC /* TictactoeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TictactoeTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,16 @@
 				4CEFBA0716CDCB8E00AA060C /* UIKit.framework in Frameworks */,
 				4CEFBA0916CDCB8E00AA060C /* Foundation.framework in Frameworks */,
 				4CEFBA0B16CDCB8E00AA060C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA5CD2D16D1BAE300F168DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA5CD3316D1BAE300F168DC /* SenTestingKit.framework in Frameworks */,
+				4FA5CD3416D1BAE300F168DC /* UIKit.framework in Frameworks */,
+				4FA5CD3516D1BAE300F168DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				4CEFBA0C16CDCB8E00AA060C /* TicTacToe */,
+				4FA5CD3616D1BAE300F168DC /* TictactoeTests */,
 				4CEFBA0516CDCB8E00AA060C /* Frameworks */,
 				4CEFBA0416CDCB8E00AA060C /* Products */,
 			);
@@ -146,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				4CEFBA0316CDCB8E00AA060C /* TicTacToe.app */,
+				4FA5CD3116D1BAE300F168DC /* TictactoeTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +190,7 @@
 				4CEFBA0616CDCB8E00AA060C /* UIKit.framework */,
 				4CEFBA0816CDCB8E00AA060C /* Foundation.framework */,
 				4CEFBA0A16CDCB8E00AA060C /* CoreGraphics.framework */,
+				4FA5CD3216D1BAE300F168DC /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,6 +230,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4FA5CD3616D1BAE300F168DC /* TictactoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA5CD3C16D1BAE300F168DC /* TictactoeTests.h */,
+				4FA5CD3D16D1BAE300F168DC /* TictactoeTests.m */,
+				4FA5CD3716D1BAE300F168DC /* Supporting Files */,
+			);
+			path = TictactoeTests;
+			sourceTree = "<group>";
+		};
+		4FA5CD3716D1BAE300F168DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FA5CD3816D1BAE300F168DC /* TictactoeTests-Info.plist */,
+				4FA5CD3916D1BAE300F168DC /* InfoPlist.strings */,
+				4FA5CD3F16D1BAE300F168DC /* TictactoeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,6 +269,25 @@
 			productName = TicTacToe;
 			productReference = 4CEFBA0316CDCB8E00AA060C /* TicTacToe.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4FA5CD3016D1BAE300F168DC /* TictactoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA5CD4216D1BAE300F168DC /* Build configuration list for PBXNativeTarget "TictactoeTests" */;
+			buildPhases = (
+				4FA5CD2C16D1BAE300F168DC /* Sources */,
+				4FA5CD2D16D1BAE300F168DC /* Frameworks */,
+				4FA5CD2E16D1BAE300F168DC /* Resources */,
+				4FA5CD2F16D1BAE300F168DC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA5CD4416D1BC8500F168DC /* PBXTargetDependency */,
+			);
+			name = TictactoeTests;
+			productName = TictactoeTests;
+			productReference = 4FA5CD3116D1BAE300F168DC /* TictactoeTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -237,6 +311,7 @@
 			projectRoot = "";
 			targets = (
 				4CEFBA0216CDCB8E00AA060C /* TicTacToe */,
+				4FA5CD3016D1BAE300F168DC /* TictactoeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +350,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FA5CD2E16D1BAE300F168DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA5CD3B16D1BAE300F168DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FA5CD2F16D1BAE300F168DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CEFB9FF16CDCB8E00AA060C /* Sources */ = {
@@ -291,7 +390,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FA5CD2C16D1BAE300F168DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA5CD3E16D1BAE300F168DC /* TictactoeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FA5CD4416D1BC8500F168DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEFBA0216CDCB8E00AA060C /* TicTacToe */;
+			targetProxy = 4FA5CD4316D1BC8500F168DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4CEFBA0F16CDCB8E00AA060C /* InfoPlist.strings */ = {
@@ -308,6 +423,14 @@
 				4CEFBA1F16CDCB8E00AA060C /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		4FA5CD3916D1BAE300F168DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FA5CD3A16D1BAE300F168DC /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -391,6 +514,40 @@
 			};
 			name = Release;
 		};
+		4FA5CD4016D1BAE300F168DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TicTacToe.app/TicTacToe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TictactoeTests/TictactoeTests-Prefix.pch";
+				INFOPLIST_FILE = "TictactoeTests/TictactoeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4FA5CD4116D1BAE300F168DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TicTacToe.app/TicTacToe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TictactoeTests/TictactoeTests-Prefix.pch";
+				INFOPLIST_FILE = "TictactoeTests/TictactoeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +568,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		4FA5CD4216D1BAE300F168DC /* Build configuration list for PBXNativeTarget "TictactoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA5CD4016D1BAE300F168DC /* Debug */,
+				4FA5CD4116D1BAE300F168DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

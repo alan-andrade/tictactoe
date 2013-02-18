@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TictactoeTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>4CEFBA0216CDCB8E00AA060C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FA5CD3016D1BAE300F168DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

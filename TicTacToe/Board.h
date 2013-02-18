@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Board : NSObject
+@interface Board : NSObject{
+    NSMutableArray *matrix;
+}
 
-@property NSMutableArray *board;
-
-- (BOOL) hasWinner;
+-(BOOL) markOccupied:(int)index with:(id)markId;
+-(int) size;
 
 @end

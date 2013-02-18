@@ -46,8 +46,9 @@
 		4FA5CD3416D1BAE300F168DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEFBA0616CDCB8E00AA060C /* UIKit.framework */; };
 		4FA5CD3516D1BAE300F168DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEFBA0816CDCB8E00AA060C /* Foundation.framework */; };
 		4FA5CD3B16D1BAE300F168DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FA5CD3916D1BAE300F168DC /* InfoPlist.strings */; };
-		4FA5CD4716D1C46F00F168DC /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5CD4616D1C46F00F168DC /* Board.m */; };
 		4FA5CD4A16D1C8C500F168DC /* BoardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5CD4916D1C8C500F168DC /* BoardTest.m */; };
+		4FBF7FB916D2080400DFF442 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5CD4616D1C46F00F168DC /* Board.m */; };
+		4FBF7FBA16D2080800DFF442 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5CD4616D1C46F00F168DC /* Board.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,9 +206,9 @@
 				4CEFBA1516CDCB8E00AA060C /* AppDelegate.h */,
 				4CEFBA1616CDCB8E00AA060C /* AppDelegate.m */,
 				4CEFBA1E16CDCB8E00AA060C /* MainStoryboard.storyboard */,
-				4C129B1A16CF35350089CFC1 /* Player.h */,
 				4FA5CD4516D1C46F00F168DC /* Board.h */,
 				4FA5CD4616D1C46F00F168DC /* Board.m */,
+				4C129B1A16CF35350089CFC1 /* Player.h */,
 				4C129B1B16CF35350089CFC1 /* Player.m */,
 				4CEFBA2C16CDCC6500AA060C /* InitViewController.h */,
 				4CEFBA2D16CDCC6500AA060C /* InitViewController.m */,
@@ -392,7 +393,7 @@
 				4C129B1C16CF35350089CFC1 /* Player.m in Sources */,
 				4CDCB86316D08DAF00F73019 /* BoardViewController.m in Sources */,
 				4CDCB86616D091F100F73019 /* BoardStatusView.m in Sources */,
-				4FA5CD4716D1C46F00F168DC /* Board.m in Sources */,
+				4FBF7FBA16D2080800DFF442 /* Board.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FA5CD4A16D1C8C500F168DC /* BoardTest.m in Sources */,
+				4FBF7FB916D2080400DFF442 /* Board.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +584,7 @@
 				4FA5CD4116D1BAE300F168DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,7 +18,16 @@
 }
 
 -(void) testBoardSize{
-    STAssertTrue([board.board count] == 9, nil);
+    STAssertEquals([board size], 9, nil);
+}
+
+-(void) testCellsOcuppancy{
+    BOOL ok        = [board markOccupied:0 with:@1];
+    BOOL notOk     = [board markOccupied:1 with:@0];
+    
+    STAssertTrue(ok, nil);
+    STAssertFalse(notOk, nil);
+    STAssertThrows([board markOccupied:9 with:@1], nil);
 }
 
 @end

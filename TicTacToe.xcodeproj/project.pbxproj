@@ -49,6 +49,8 @@
 		4FA5CD4A16D1C8C500F168DC /* BoardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5CD4916D1C8C500F168DC /* BoardTest.m */; };
 		4FBF7FB916D2080400DFF442 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5CD4616D1C46F00F168DC /* Board.m */; };
 		4FBF7FBA16D2080800DFF442 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5CD4616D1C46F00F168DC /* Board.m */; };
+		4FBF7FBD16D2995600DFF442 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBF7FBC16D2995600DFF442 /* Game.m */; };
+		4FBF7FC216D29BFF00DFF442 /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBF7FC116D29BFF00DFF442 /* GameTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,9 +114,13 @@
 		4FA5CD3A16D1BAE300F168DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4FA5CD3F16D1BAE300F168DC /* TictactoeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TictactoeTests-Prefix.pch"; sourceTree = "<group>"; };
 		4FA5CD4516D1C46F00F168DC /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
-		4FA5CD4616D1C46F00F168DC /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		4FA5CD4616D1C46F00F168DC /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; tabWidth = 2; };
 		4FA5CD4816D1C8C500F168DC /* BoardTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardTest.h; sourceTree = "<group>"; };
 		4FA5CD4916D1C8C500F168DC /* BoardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardTest.m; sourceTree = "<group>"; };
+		4FBF7FBB16D2995600DFF442 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		4FBF7FBC16D2995600DFF442 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		4FBF7FC016D29BFF00DFF442 /* GameTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameTests.h; path = ../TicTacToe/GameTests.h; sourceTree = "<group>"; };
+		4FBF7FC116D29BFF00DFF442 /* GameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameTests.m; path = ../TicTacToe/GameTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +224,8 @@
 				4CDCB86516D091F100F73019 /* BoardStatusView.m */,
 				4C11700B16D15FE600BFF167 /* MessageTypes.h */,
 				4CEFBA0D16CDCB8E00AA060C /* Supporting Files */,
+				4FBF7FBB16D2995600DFF442 /* Game.h */,
+				4FBF7FBC16D2995600DFF442 /* Game.m */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -239,6 +247,8 @@
 		4FA5CD3616D1BAE300F168DC /* TictactoeTests */ = {
 			isa = PBXGroup;
 			children = (
+				4FBF7FC016D29BFF00DFF442 /* GameTests.h */,
+				4FBF7FC116D29BFF00DFF442 /* GameTests.m */,
 				4FA5CD3716D1BAE300F168DC /* Supporting Files */,
 				4FA5CD4816D1C8C500F168DC /* BoardTest.h */,
 				4FA5CD4916D1C8C500F168DC /* BoardTest.m */,
@@ -394,6 +404,7 @@
 				4CDCB86316D08DAF00F73019 /* BoardViewController.m in Sources */,
 				4CDCB86616D091F100F73019 /* BoardStatusView.m in Sources */,
 				4FBF7FBA16D2080800DFF442 /* Board.m in Sources */,
+				4FBF7FBD16D2995600DFF442 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +414,7 @@
 			files = (
 				4FA5CD4A16D1C8C500F168DC /* BoardTest.m in Sources */,
 				4FBF7FB916D2080400DFF442 /* Board.m in Sources */,
+				4FBF7FC216D29BFF00DFF442 /* GameTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

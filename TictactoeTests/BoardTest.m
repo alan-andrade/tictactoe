@@ -21,13 +21,21 @@
     STAssertEquals([board size], 9, nil);
 }
 
+
 -(void) testCellsOcuppancy{
-    BOOL ok        = [board markOccupied:0 with:@1];
-    BOOL notOk     = [board markOccupied:1 with:@0];
-    
-    STAssertTrue(ok, nil);
-    STAssertFalse(notOk, nil);
-    STAssertThrows([board markOccupied:9 with:@1], nil);
+    [board mark:0 with:@2];
+    [board mark:1 with:@2];
+    [board mark:2 with:@2];
+    STAssertTrue([board isSolved], nil);
 }
+
+/*
+-(void) testSolvableCombinations{
+    [board markOccupied:0 with:@1];
+    [board markOccupied:1 with:@1];
+    [board markOccupied:2 with:@1];
+    
+    STAssertTrue([board isSolved], nil);
+}*/
 
 @end

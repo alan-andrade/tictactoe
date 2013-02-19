@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Board : NSObject{
-    NSMutableArray *matrix;
+    NSMutableArray *_matrix;
 }
 
--(BOOL) markOccupied:(int)index with:(id)markId;
--(int) size;
+- (int) size;
+- (BOOL) mark :(int)position with:(id)object;
+- (BOOL) isSolved;
 
 @end

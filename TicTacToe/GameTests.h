@@ -1,16 +1,16 @@
 //
-//  BoardTest.h
+//  GameTests.h
 //  TicTacToe
 //
-//  Created by Gallo on 17/02/13.
+//  Created by Alan Andrade on 2/18/13.
 //  Copyright (c) 2013 PartyMan. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "Board.h"
+#import "Game.h"
 
-@interface BoardTest : SenTestCase{
-    Board *board;
+@interface GameTests : SenTestCase{
+    Game *game;
 }
 
 @end
